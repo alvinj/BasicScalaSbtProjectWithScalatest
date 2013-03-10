@@ -1,8 +1,8 @@
-name := "BasicProjectWithScalaTest"
+name := "Basic SBT ScalaTest Test"
 
-version := "1.0"
+version := "1.1"
 
-scalaVersion := "2.9.1"
+scalaVersion := "2.10.0"
 
-libraryDependencies += "org.scalatest" %% "scalatest" % "1.8" % "test"
+libraryDependencies += "org.scalatest" % "scalatest_2.10" % "1.9.1" % "test"
 
